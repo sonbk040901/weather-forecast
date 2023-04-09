@@ -1,0 +1,26 @@
+.select {
+  font-family: "Allura", cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow: 0 0 0.5rem rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  .title {
+    flex: 1 1 0;
+    text-align: center;
+  }
+  .arrow {
+    flex-basis: 5rem;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.743);
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      color: rgba(255, 255, 255, 0.997);
+    }
+  }
+}
