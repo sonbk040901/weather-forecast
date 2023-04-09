@@ -5,7 +5,7 @@ export type RequestType = {
   language: "vi" | "en";
   detail: true;
 };
-export const API_KEY = "b2pqYrUTi0AhMFAiSZndV6rAmdBNOenZ";
+export const API_KEY = "JpLUUaz28xMOOrWjm8v3ANvNOB0FUFyk";
 export const BASE_URL = `https://dataservice.accuweather.com/forecasts/v1/daily/5day/`;
 export type LocationType = {
   locationKey: number;

@@ -10,7 +10,6 @@ function Select({
   value,
   dataSet,
   onChange,
-  ...other
 }: {
   value: number;
   dataSet: { value: number; label: string }[];
@@ -30,10 +29,7 @@ function Select({
     setLoading(false);
   }, [value]);
   return (
-    <div
-      className="select"
-      {...other}
-    >
+    <div className="select">
       <FontAwesomeIcon
         className="arrow"
         spin={loading}

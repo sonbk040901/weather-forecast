@@ -13,9 +13,11 @@
   background-color: #ffffff60;
   color: var(--color-light);
 }
-.weather-mini {
-  .icon-mini {
-    font-size: 3rem;
+.icon-mini {
+  font-size: 3rem;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
   }
 }
 .temperature-mini {

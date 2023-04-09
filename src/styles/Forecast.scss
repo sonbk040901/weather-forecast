@@ -38,6 +38,11 @@
     font-size: 14rem;
     color: inherit;
     text-shadow: 0 0 0.5rem rgb(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
   }
 }
 .weather .divide {
